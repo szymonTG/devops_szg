@@ -9,7 +9,7 @@ def index():
 @app.route('/hello/<name>')
 
 def  hello_name(name):
-	return 'Hello, %s, my dear friend!' % name
+	return "Hello, %s, Simon's dear friend!" % name
 
 
 
